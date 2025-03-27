@@ -1,64 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <header>
-        <h1>WIKI de War Thunder</h1>
-        <nav>
-            <a href="">lobby</a>
-            <a href="#vehiculos">vehiculos</a>
-            <a href="">premium</a>
-            <a href="">Mapas</a>
-        </nav>
-    </header>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body style="padding: 30px;">
+        <header style="padding:30px;">
+            
+            <h1 style="color: rgb(13, 144, 124);background-color: rgba(0, 0, 0, 0.829);font-size: 45px;padding: 100px 100px 100px 100px ;border: 20px double red;border-radius: 200px ;">
+                WIKI de War Thunder
+            </h1>
+            <nav>
+                
+                <ul style="background-color: rgb(128, 126, 126);margin: auto;width:600px; text-align: center;"> 
+                    <li style="padding: 8px;"><a href="">lobby</a></li>
+                    <li style="padding: 8px;"><a href="#vehiculos">vehiculos</a></li>
+                    <li style="padding: 8px;"><a href="">premium</a></li>
+                    <li style="padding: 8px;"><a href="">Mapas</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <aside>
+            <h2> Inicia sesión</h2>
+            <p style="font-size: 18px;color: rgb(255, 0, 0);background-color: rgb(125, 241, 10);">
+                Inicia session para estar actualizado de las novedades de la WIKI
+            </p>
+             <form action="" method="get">
+                <ul>
+                    <li>
+                        <label for="name">nombre</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+
+                    <li>
+                    <label for="email">correo electronico</label>
+                    <input type="email" id="email" email="user_gmial">
+                    </li>
+                   
+                    <button> iniciar sesion</button>
+            
+                </ul>
+                
+                
+            </form>
+        </aside>
     <main>
-        <h2 id="vehiculos">vehiculos</h2>
-        <p>La gran variedad de vehiculos en este juego y son terrestres, aereos y maritimos 
-            Todos estos vehiculos tienen capacidades diferentes y por ende un modo de juego unico asi
-        asi que en esta wiki se tratara de explicar su funcionamiento de cada uno 
-    </p>
-<nav>
-    <ul>
-        <il><a href="#TE">Terrestres</a></il>
-        <il><a href="#AE">Aereos</a></il>
-        <il><a href="#Ma">Maritimos</a></il>
-    </ul>
-</nav>
+        <section>
 
+            <h2 style="color: rgb(38, 136, 33);background-color: rgb(0, 50, 100); font-size: 45px;" id="vehiculos">vehiculos</h2>
+            <p style="font-size: 20px;">La gran variedad de vehiculos en este juego y son terrestres, aereos y maritimos 
+                Todos estos vehiculos tienen capacidades diferentes y por ende un modo de juego unico asi
+                asi que en esta wiki se tratara de explicar su funcionamiento de cada uno 
+            </p>
+            <nav style="background-color: rgb(11, 155, 171);color: aliceblue; padding: 30px;">
+                <ul style="font-size: large ; padding:30px;">
+                    <li style= "padding: 15px 100px 15px 100px ; color: rgb(22, 181, 22); border: 5px solid red;box-shadow: 5px 2px black;width: min-content; "><a href="#TE">Terrestres</a></li>
+                    <li style="padding: 15px 100px 15px 100px ;color: rgb(22, 181, 22);border: 5px solid red;box-shadow: 5px 5px 2px black;width: min-content; "><a href="#AE">Aereos</a></li>
+                    <li style="padding: 15px 100px 15px 100px ;color: rgb(22, 181, 109);border: 5px solid red;box-shadow: 5px 5px 2px black;width: min-content; "><a href="#Ma">Maritimos</a></li>
+                </ul>
+            </nav>
+        </section>
 
+        <section>
 
-         <h2 id="TE">Vehiculos terrestres</h2>
-         <p>Estos vehiculos se dividen en difernetes tipos mbt,AAA,ATGM,Mediums,Light,scout y super Heavy cada uno desempeña un trabajo completamente diferente y esto es lo que los vuelve complicado en el uso para el jugador</p>
-         <nav>
-        <ul>
-            <il><a href="#pesado">Pesados</a></il>
-            <il><a href="#liht">Liegros y Scout</a></il>
-            <il><a href="#AAA">Anti aereos AAA</a></il>
-            <il><a href="#camper">ATGM misil anti blinadado</a></il>
+            
+            <h2 style="color: rgb(9, 111, 21);background-color: rgb(11, 232, 240);font: size 25px; ;  "id="TE">Vehiculos terrestres</h2>
+            <p>Estos vehiculos se dividen en difernetes tipos mbt,AAA,ATGM,Mediums,Light,scout y super Heavy cada uno desempeña un trabajo completamente diferente y esto es lo que los vuelve complicado en el uso para el jugador</p>
+            <nav>
+        <ul style="margin: auto; border:15px solid brown; border-radius: 20px;">
+            <li style="font-size: large; text-align: center;"><a href="#pesado">Pesados</a></li>
+            <li style="font-size: large; text-align: center;"><a href="#liht">Liegros y Scout</a></li>
+            <li style="font-size: large; text-align: center;"><a href="#AAA">Anti aereos AAA</a></li>
+            <li style="font-size: large; text-align: center;"><a href="#camper">ATGM misil anti blinadado</a></li>
         </ul>
-         </nav>
-         
-        <article>Vehiculos pesados</article>
-        <img>
-        <h2>Vehiculos aereos</h2>
-        
-        <p>Al igual que los terrestres estos tienen una rama de especialidades cazas, itnterceptores, bombarderos en picada, bombardero Estrategico, Navales </p>
+        </nav>
+        </section>
+        <section>
+
+            <h2 style="font-size: 25px; color: rgb(255, 13, 0);">Vehiculos pesados</h2>
+            <p style="font-size:large;">Estos vehiculos terrestres tienen como tarea soportar los ataques de los enemigos y un arma pricipal con buenas caracteristicas de perforacion y daño </p>
+            <img>
+        </section>
+        <section>
+
+            <h2  style="color: rgba(19, 227, 227, 0.925);background-color: blue;font-size: 25px;">Vehiculos aereos</h2>
+            
+            <p style="font-size: 25px;color: rgb(20, 210, 210);">Al igual que los terrestres estos tienen una rama de especialidades cazas, itnterceptores, bombarderos en picada, bombardero Estrategico, Navales </p>
+        </section>
+        <section> 
+
+        <h2 style="color: rgb(18, 128, 168);background-color: black;font-size: 25px;">Vehiculos maritimos</h2>
+        <p style= "font-size: 25px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Son principalmente vehiculos como destructores,guardia costera, etc </p>
        
-        <h2>Vehiculos maritimos</h2>
+        </section>
+        <section>
 
-        <p>Son principlamente votes y es un modo de juego el cual casi nadie juega</p>
-
-        <h2>premium</h2>
-
-        <p>Como su nombre lo dice son vehiculos con la capicidad de generar mas creditos y puntos de investigacion, dan muchas ventajas pero no es recomendable comprar vehiculos de niveles altos o incluso si eres nuevo en el juego</p>
-        <side></side>
+            <h2 style="color: darkgoldenrod;background-color: black;font-size: 25px;">premium</h2>
+            <p style="font-size: 25px;">Como su nombre lo dice son vehiculos con la capicidad de generar mas creditos y puntos de investigacion, dan muchas ventajas pero no es recomendable comprar vehiculos de niveles altos o incluso si eres nuevo en el juego</p>
+            
+        </section>
+       
+        
     </main>
     <footer>
-     
+        <p></p>
     </footer>
 </body>
 </html>
